@@ -224,7 +224,7 @@
     var cartes = $$('.carte', $('[data-cartes]'));
     var compteur = $('[data-compte]');
     var aucun = $('.etat-vide[data-vide]');
-    var normaliser = function (s) { return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim(); };
+    var normaliser = function (s) { return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/œ/g, 'oe').replace(/æ/g, 'ae').trim(); };
     var filtrer = function () {
       var q = normaliser(champRecherche.value);
       var visibles = 0;
