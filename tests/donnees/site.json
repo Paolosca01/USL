@@ -1,0 +1,31 @@
+{
+  "nom": "USL Cugy",
+  "nom_complet": "Union des sociétés locales de Cugy",
+  "url": "https://www.uslcugy.ch",
+  "courriel": { "utilisateur": "usl.cugy", "domaine": "gmail.com" },
+  "adresse_postale": "[À COMPLÉTER]",
+  "responsable_publication": "Gianluca Scarabelli, président",
+  "hebergeur": "[À COMPLÉTER]",
+  "realisation": "[À COMPLÉTER]",
+  "statuts": "documents/statuts.pdf",
+  "logo": "images/logo.svg",
+  "presentation": [
+    "Fondée en 1976, l'Union des sociétés locales de Cugy réunit les sociétés sportives, culturelles et de loisirs du village.",
+    "Elle anime la vie de Cugy et renforce les liens entre ses habitants.",
+    "Elle annonce les manifestations et relaie les demandes de ses sociétés membres.",
+    "Son comité est bénévole."
+  ],
+  "formulaire": {
+    "actif": false,
+    "url_envoi": "/envoyer.php",
+    "expediteur": null,
+    "delai_minimum_secondes": 5
+  },
+  "protection_des_donnees": {
+    "derniere_mise_a_jour": "2026-11-16",
+    "google_pays_et_garanties": "[À COMPLÉTER]",
+    "duree_conservation_messages": "[À COMPLÉTER]",
+    "duree_conservation_journaux": "[À COMPLÉTER]"
+  },
+  "credits_photo_generaux": "[À COMPLÉTER]"
+}

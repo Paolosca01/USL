@@ -1,0 +1,52 @@
+[
+  {
+    "fichier": "evenements/petit-marche-de-cugy.jpg",
+    "alt": "Image d'essai : aplat de couleur",
+    "credit": "Essai automatique",
+    "autorisation": true,
+    "point_focal": {
+      "x": 30,
+      "y": 40
+    }
+  },
+  {
+    "fichier": "evenements/marche-de-noel.jpg",
+    "alt": "Image d'essai : aplat de couleur",
+    "credit": "Essai automatique",
+    "autorisation": true,
+    "point_focal": {
+      "x": 30,
+      "y": 40
+    }
+  },
+  {
+    "fichier": "evenements/soupe-a-la-courge.jpg",
+    "alt": "Image d'essai : aplat de couleur",
+    "credit": "Essai automatique",
+    "autorisation": false,
+    "point_focal": {
+      "x": 30,
+      "y": 40
+    }
+  },
+  {
+    "fichier": "galerie/essai-1.jpg",
+    "alt": "Image d'essai : aplat de couleur",
+    "credit": "Essai automatique",
+    "autorisation": true,
+    "point_focal": {
+      "x": 30,
+      "y": 40
+    }
+  },
+  {
+    "fichier": "galerie/essai-2.jpg",
+    "alt": "Image d'essai : aplat de couleur",
+    "credit": "Essai automatique",
+    "autorisation": true,
+    "point_focal": {
+      "x": 30,
+      "y": 40
+    }
+  }
+]

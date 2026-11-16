@@ -1,0 +1,160 @@
+[
+  {
+    "slug": "essai-passee",
+    "nom": "Manifestation d'essai passée",
+    "date": "2026-09-12",
+    "heure_debut": "10:00",
+    "heure_fin": "16:00",
+    "lieu": {
+      "nom": "Lieu d'essai",
+      "adresse": "Rue d'essai 1, 1053 Cugy",
+      "lien_carte": null
+    },
+    "description": [
+      "Texte d'essai : cette manifestation fictive sert uniquement à vérifier la mise en page du site. Elle n'existe pas.",
+      "Deuxième paragraphe d'essai, un peu plus long, pour contrôler la largeur des colonnes de texte et les césures sur téléphone."
+    ],
+    "organisateur": "Société d'essai",
+    "prix": "Entrée libre (essai)",
+    "inscription": "Sans inscription (essai)",
+    "parking": "Parking d'essai",
+    "contact": "Comité d'essai",
+    "galerie": [
+      "galerie/essai-1.jpg",
+      "galerie/essai-2.jpg"
+    ]
+  },
+  {
+    "slug": "apero-de-la-nouvelle-annee",
+    "nom": "Apéro de la Nouvelle Année",
+    "date": "2027-01-09",
+    "heure_debut": "17:00",
+    "heure_fin": null,
+    "lieu": {
+      "nom": "Lieu d'essai",
+      "adresse": "Rue d'essai 1, 1053 Cugy",
+      "lien_carte": null
+    },
+    "description": [
+      "Texte d'essai : cette manifestation fictive sert uniquement à vérifier la mise en page du site. Elle n'existe pas.",
+      "Deuxième paragraphe d'essai, un peu plus long, pour contrôler la largeur des colonnes de texte et les césures sur téléphone."
+    ],
+    "organisateur": "Société d'essai",
+    "prix": "Entrée libre (essai)",
+    "inscription": "Sans inscription (essai)",
+    "parking": "Parking d'essai",
+    "contact": "Comité d'essai",
+    "galerie": []
+  },
+  {
+    "slug": "petit-marche-de-cugy",
+    "nom": "Petit Marché de Cugy",
+    "date": "2027-05-01",
+    "heure_debut": "09:00",
+    "heure_fin": "13:00",
+    "lieu": {
+      "nom": "Place d'essai",
+      "adresse": "Rue d'essai 1, 1053 Cugy",
+      "lien_carte": null
+    },
+    "description": [
+      "Texte d'essai : cette manifestation fictive sert uniquement à vérifier la mise en page du site. Elle n'existe pas.",
+      "Deuxième paragraphe d'essai, un peu plus long, pour contrôler la largeur des colonnes de texte et les césures sur téléphone."
+    ],
+    "organisateur": "Société d'essai",
+    "prix": "Entrée libre (essai)",
+    "inscription": "Sans inscription (essai)",
+    "parking": "Parking d'essai",
+    "contact": "Comité d'essai",
+    "galerie": []
+  },
+  {
+    "slug": "fete-nationale",
+    "nom": "Fête Nationale",
+    "date": "2027-08-01",
+    "heure_debut": null,
+    "heure_fin": null,
+    "lieu": {
+      "nom": "[À COMPLÉTER]",
+      "adresse": "Rue d'essai 1, 1053 Cugy",
+      "lien_carte": null
+    },
+    "description": [
+      "Texte d'essai : cette manifestation fictive sert uniquement à vérifier la mise en page du site. Elle n'existe pas.",
+      "Deuxième paragraphe d'essai, un peu plus long, pour contrôler la largeur des colonnes de texte et les césures sur téléphone."
+    ],
+    "organisateur": "Société d'essai",
+    "prix": "Entrée libre (essai)",
+    "inscription": "Sans inscription (essai)",
+    "parking": "Parking d'essai",
+    "contact": "Comité d'essai",
+    "galerie": []
+  },
+  {
+    "slug": "soupe-a-la-courge",
+    "nom": "Soupe à la courge",
+    "date": "2027-10-30",
+    "heure_debut": "11:30",
+    "heure_fin": "14:00",
+    "lieu": {
+      "nom": "Lieu d'essai au nom nettement plus long que les autres",
+      "adresse": "Rue d'essai 1, 1053 Cugy",
+      "lien_carte": null
+    },
+    "description": [
+      "Texte d'essai : cette manifestation fictive sert uniquement à vérifier la mise en page du site. Elle n'existe pas.",
+      "Deuxième paragraphe d'essai, un peu plus long, pour contrôler la largeur des colonnes de texte et les césures sur téléphone."
+    ],
+    "organisateur": "Société d'essai",
+    "prix": "Entrée libre (essai)",
+    "inscription": "Sans inscription (essai)",
+    "parking": "Parking d'essai",
+    "contact": "Comité d'essai",
+    "galerie": []
+  },
+  {
+    "slug": "marche-de-noel",
+    "nom": "Marché de Noël",
+    "date": "2027-12-04",
+    "heure_debut": "16:00",
+    "heure_fin": "21:00",
+    "lieu": {
+      "nom": "Lieu d'essai",
+      "adresse": "Rue d'essai 1, 1053 Cugy",
+      "lien_carte": null
+    },
+    "description": [
+      "Texte d'essai : cette manifestation fictive sert uniquement à vérifier la mise en page du site. Elle n'existe pas.",
+      "Deuxième paragraphe d'essai, un peu plus long, pour contrôler la largeur des colonnes de texte et les césures sur téléphone."
+    ],
+    "organisateur": "Société d'essai",
+    "prix": "Entrée libre (essai)",
+    "inscription": "Sans inscription (essai)",
+    "parking": "Parking d'essai",
+    "contact": "Comité d'essai",
+    "galerie": [],
+    "date_fin": "2027-12-05"
+  },
+  {
+    "slug": "fete-des-aines",
+    "nom": "Fête des Aînés",
+    "date": null,
+    "heure_debut": null,
+    "heure_fin": null,
+    "lieu": {
+      "nom": "[À COMPLÉTER]",
+      "adresse": "Rue d'essai 1, 1053 Cugy",
+      "lien_carte": null
+    },
+    "description": [
+      "Texte d'essai : cette manifestation fictive sert uniquement à vérifier la mise en page du site. Elle n'existe pas.",
+      "Deuxième paragraphe d'essai, un peu plus long, pour contrôler la largeur des colonnes de texte et les césures sur téléphone."
+    ],
+    "organisateur": "Société d'essai",
+    "prix": "Entrée libre (essai)",
+    "inscription": "Sans inscription (essai)",
+    "parking": "Parking d'essai",
+    "contact": "Comité d'essai",
+    "galerie": []
+  }
+]

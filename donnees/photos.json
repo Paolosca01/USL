@@ -1,0 +1,44 @@
+[
+  {
+    "fichier": "evenements/apero-de-la-nouvelle-annee.jpg",
+    "alt": "[À COMPLÉTER]",
+    "credit": "[À COMPLÉTER]",
+    "autorisation": false,
+    "point_focal": { "x": 50, "y": 50 }
+  },
+  {
+    "fichier": "evenements/petit-marche-de-cugy.jpg",
+    "alt": "[À COMPLÉTER]",
+    "credit": "[À COMPLÉTER]",
+    "autorisation": false,
+    "point_focal": { "x": 50, "y": 50 }
+  },
+  {
+    "fichier": "evenements/fete-des-aines.jpg",
+    "alt": "[À COMPLÉTER]",
+    "credit": "[À COMPLÉTER]",
+    "autorisation": false,
+    "point_focal": { "x": 50, "y": 50 }
+  },
+  {
+    "fichier": "evenements/fete-nationale.jpg",
+    "alt": "[À COMPLÉTER]",
+    "credit": "[À COMPLÉTER]",
+    "autorisation": false,
+    "point_focal": { "x": 50, "y": 50 }
+  },
+  {
+    "fichier": "evenements/soupe-a-la-courge.jpg",
+    "alt": "[À COMPLÉTER]",
+    "credit": "[À COMPLÉTER]",
+    "autorisation": false,
+    "point_focal": { "x": 50, "y": 50 }
+  },
+  {
+    "fichier": "evenements/marche-de-noel.jpg",
+    "alt": "[À COMPLÉTER]",
+    "credit": "[À COMPLÉTER]",
+    "autorisation": false,
+    "point_focal": { "x": 50, "y": 50 }
+  }
+]

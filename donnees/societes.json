@@ -1,0 +1,218 @@
+[
+  {
+    "nom": "APE Haut-Talent",
+    "categorie": "jeunesse",
+    "contact": {
+      "nom": "Steve Roth",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Atout Chœur, chœur mixte",
+    "categorie": "culture",
+    "contact": {
+      "nom": "Gabriela Menoud",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Capoeira Siva",
+    "categorie": "sport",
+    "contact": {
+      "nom": "De Oliveira",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Concerts malgré tout",
+    "categorie": "culture",
+    "contact": {
+      "nom": "Albert Diringer",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Fondation Echaud",
+    "categorie": "autre",
+    "contact": {
+      "nom": "Kris Ricchetti",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Football Club de Cugy",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Patrick Veyre",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Groupe Scout de la Croisée",
+    "categorie": "jeunesse",
+    "contact": {
+      "nom": "Samuel Piot",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Gym Dames",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Rosalie Balsiger",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Gym Jeunesse",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Alexandre Diserens",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Gym-Volley Cugy",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Olivier Gisler",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Jazzercise",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Nora Jaques",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Jeunesse de Cugy",
+    "categorie": "jeunesse",
+    "contact": {
+      "nom": "Kilian Busch",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "La Boule du Billard",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Norbert Bussard",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "La Gym des Dames d’Onze heures",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Micheline Alpstäg",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Lausanne-Ville – Cugy Handball",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Patrice Hof",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Mouvement du Centre",
+    "categorie": "autre",
+    "contact": {
+      "nom": "Patrick Monge",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Paysannes vaudoises",
+    "categorie": "autre",
+    "contact": {
+      "nom": "Mireille Bourquin",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Petit Conservatoire du Haut-Talent",
+    "categorie": "culture",
+    "contact": {
+      "nom": "Pascale Joyet",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Power Kick Boxing Cugy",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Jack Vallelian",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Rancho Folclórico dos Amigos na Suíça",
+    "categorie": "culture",
+    "contact": {
+      "nom": "Marta Da Silva",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Sport pour Tous",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Sébastien Janin",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Talent Solidaire",
+    "categorie": "autre",
+    "contact": {
+      "nom": "Norbert Bussard",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Tennis Club",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Fabrice Meylan",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "VBC Sugnens-Cugy",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Cédric Bolay",
+      "accord_publication": false
+    },
+    "site_web": null
+  }
+]

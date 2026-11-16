@@ -1,0 +1,218 @@
+[
+  {
+    "nom": "APE Haut-Talent",
+    "categorie": "jeunesse",
+    "contact": {
+      "nom": "Personne d'essai 1",
+      "accord_publication": true
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Atout Chœur, chœur mixte",
+    "categorie": "culture",
+    "contact": {
+      "nom": "Personne d'essai 2",
+      "accord_publication": false
+    },
+    "site_web": "https://exemple.invalid/"
+  },
+  {
+    "nom": "Capoeira Siva",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Personne d'essai 3",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Concerts malgré tout",
+    "categorie": "culture",
+    "contact": {
+      "nom": "Personne d'essai 4",
+      "accord_publication": true
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Fondation Echaud",
+    "categorie": "autre",
+    "contact": {
+      "nom": "Personne d'essai 5",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Football Club de Cugy",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Personne d'essai 6",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Groupe Scout de la Croisée",
+    "categorie": "jeunesse",
+    "contact": {
+      "nom": "Personne d'essai 7",
+      "accord_publication": true
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Gym Dames",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Personne d'essai 8",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Gym Jeunesse",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Personne d'essai 9",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Gym-Volley Cugy",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Personne d'essai 10",
+      "accord_publication": true
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Jazzercise",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Personne d'essai 11",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Jeunesse de Cugy",
+    "categorie": "jeunesse",
+    "contact": {
+      "nom": "Personne d'essai 12",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "La Boule du Billard",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Personne d'essai 13",
+      "accord_publication": true
+    },
+    "site_web": null
+  },
+  {
+    "nom": "La Gym des Dames d’Onze heures",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Personne d'essai 14",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Lausanne-Ville – Cugy Handball",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Personne d'essai 15",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Mouvement du Centre",
+    "categorie": "autre",
+    "contact": {
+      "nom": "Personne d'essai 16",
+      "accord_publication": true
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Paysannes vaudoises",
+    "categorie": "autre",
+    "contact": {
+      "nom": "Personne d'essai 17",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Petit Conservatoire du Haut-Talent",
+    "categorie": "culture",
+    "contact": {
+      "nom": "Personne d'essai 18",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Power Kick Boxing Cugy",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Personne d'essai 19",
+      "accord_publication": true
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Rancho Folclórico dos Amigos na Suíça",
+    "categorie": "culture",
+    "contact": {
+      "nom": "Personne d'essai 20",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Sport pour Tous",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Personne d'essai 21",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Talent Solidaire",
+    "categorie": "autre",
+    "contact": {
+      "nom": "Personne d'essai 22",
+      "accord_publication": true
+    },
+    "site_web": null
+  },
+  {
+    "nom": "Tennis Club",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Personne d'essai 23",
+      "accord_publication": false
+    },
+    "site_web": null
+  },
+  {
+    "nom": "VBC Sugnens-Cugy",
+    "categorie": "sport",
+    "contact": {
+      "nom": "Personne d'essai 24",
+      "accord_publication": false
+    },
+    "site_web": null
+  }
+]

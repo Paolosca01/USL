@@ -1,0 +1,17 @@
+{
+  "comite": [
+    { "nom": "Gianluca Scarabelli", "fonction": "Président", "accord_publication": true },
+    { "nom": "Patrick Gisclon", "fonction": "Vice-président et membre d'honneur", "accord_publication": true },
+    { "nom": "Eloise Zurcher", "fonction": "Trésorière, responsable décoration et communication", "accord_publication": true },
+    { "nom": "Sofia Rodrigues", "fonction": "Membre, responsable matériel et relation avec les fournisseurs", "accord_publication": true },
+    { "nom": "Anibal Pereira", "fonction": "Membre", "accord_publication": true },
+    { "nom": "Medhi Reutter", "fonction": "Membre", "accord_publication": true },
+    { "nom": "Maria De Vito", "fonction": "Membre", "accord_publication": true }
+  ],
+  "membres_honneur": [
+    { "nom": "Rosangela Barrat", "accord_publication": true },
+    { "nom": "Florent Décaillet", "accord_publication": true },
+    { "nom": "Santo Mirabile", "accord_publication": true },
+    { "nom": "Norbert Bussard", "accord_publication": true }
+  ]
+}

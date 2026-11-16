@@ -1,0 +1,32 @@
+# Conformité : règles de la section 5 du cahier des charges
+
+Ce tableau dit comment chaque règle est respectée et comment c'est contrôlé. « Automatique » renvoie à `npm run verifier`, qui échoue si la règle est enfreinte ; « navigateur » à `outils/controle-navigateur.mjs`.
+
+Ce document décrit le site, il ne vaut pas avis juridique. Les deux pages légales sont des projets à faire valider par le comité.
+
+| Règle | Comment elle est respectée | Contrôle |
+|---|---|---|
+| **5.1** Aucun cookie, aucun traceur, aucune requête vers un tiers | Police, feuille de style, script et images sont servis par le site. Aucune carte, vidéo, statistique ni widget intégré. Le script n'écrit ni cookie ni stockage local et ne fait aucune requête réseau. La carte est un simple lien vers map.geo.admin.ch. Pas de bannière de cookies. | Automatique (ressources externes, mots interdits dans le script). Navigateur : 0 requête vers un autre domaine sur 8 pages à 3 largeurs. La CSP bloquerait de toute façon une ressource tierce. |
+| **5.1** Mention « ni cookies ni outils de suivi » | Première phrase de la page « Protection des données ». | Automatique |
+| **5.1** Statistiques | Aucune. Condition notée pour plus tard dans `A-COMPLETER.md`. | — |
+| **5.2** Mentions légales | Page `/mentions-legales/` : association (art. 60 ss CC), adresse, e-mail, responsable de la publication, hébergeur, réalisation, droits d'auteur, crédits photo (liste tirée de `photos.json`), liens externes. Adresse, hébergeur et réalisation sont en [À COMPLÉTER]. | Automatique (présence des rubriques). Contenu : à valider par le comité. |
+| **5.3** Protection des données (LPD) | Page `/protection-des-donnees/` en langage simple : responsable, données traitées, buts, destinataires (hébergeur, Gmail/Google hors de Suisse), durées, droits et adresse, absence de cookies, date de mise à jour. Pays et garanties Google, durées et hébergeur sont en [À COMPLÉTER]. | Automatique (présence des rubriques). Contenu : à valider par le comité. |
+| **5.2 / 5.3** Projets à valider | Commentaire en tête du code des deux pages (`gabarits/legales.mjs`) et dans le HTML généré. | Automatique |
+| **5.4** Formulaire : sans solution d'envoi en Suisse ou dans l'UE, adresse e-mail et mailto | C'est l'état actuel : formulaire désactivé (`formulaire.actif: false`), la page Contact affiche l'adresse e-mail. Aucun service de formulaire tiers. | Automatique |
+| **5.4** Formulaire, une fois activé | Trois champs (nom, e-mail, message). Phrase sur l'usage des données et lien vers « Protection des données » sous le bouton. Aucune case, aucune lettre d'information. Champ piège invisible et délai minimum, contrôlés dans le navigateur et à nouveau par `envoyer.php`. Le message part par e-mail et n'est écrit nulle part. | Automatique (champs, phrase, destination). Essayé avec un serveur PHP local et un envoi simulé : message transmis, six cas de refus vérifiés (piège rempli, envoi trop rapide, sans heure de départ, injection d'en-tête, autre origine, simple visite). Pas encore essayé chez un hébergeur réel. |
+| **5.5** Nom et fonction uniquement | Les données ne prévoient ni téléphone ni adresse. Le contact d'une manifestation est un texte libre : à remplir avec un nom de société ou de fonction. | Automatique (aucun numéro de téléphone sur le site) |
+| **5.5** `accord_publication` | Présent pour chaque personne. Le site n'affiche que les personnes à `true`. Comité et membres d'honneur : `true`. Contacts des sociétés : `false`, donc aucun n'apparaît. Les fichiers de `donnees/` ne sont pas publiés avec le site. | Automatique : aucun nom sans accord dans les pages générées (contrôle essayé avec une infraction volontaire). |
+| **5.6** Photos : fichier, alt, crédit, autorisation, point focal | Champs de `donnees/photos.json`. Une photo n'est traitée et copiée dans `public/` que si `autorisation` vaut `true` et que le texte alternatif et le crédit sont remplis. Le crédit s'affiche en petit, sous le texte du panneau ou sous l'image. | Automatique (aucune image non autorisée dans `public/`, un crédit par photo) |
+| **5.6** Aucune image d'Internet, de banque d'images ou d'IA | Aucune photo dans le dépôt. Rien n'a été repris de l'ancien site. Emplacements réservés : blocs de couleur avec le nom de la manifestation. Les images de `tests/` sont des formes géométriques fabriquées par un script, jamais publiées. | Revue manuelle |
+| **5.7** Polices et bibliothèques libres | Police Archivo (OFL 1.1). Aucune bibliothèque dans le site. Outil de fabrication : sharp (Apache 2.0). Licences dans `licences/`, liste dans `CREDITS.md`. | Revue manuelle. Réserve : les binaires de sharp embarquent libvips (LGPL) ; il ne sert qu'à préparer les images et n'est pas publié. |
+| **5.7** Aucun fait inventé | Dates, lieux, prix, descriptions : [À COMPLÉTER]. Seule date saisie : la Fête Nationale au 1er août 2027, année à confirmer. Le texte de présentation ne reprend que le contexte fourni et ne cite pas le nombre de sociétés (23 annoncées, 24 dans la liste). | `npm run a-completer` liste tout ce qui manque ; `npm run verifier -- --strict` bloque la publication tant qu'il en reste. |
+| **5.8** HTTPS partout | Redirection vers HTTPS et en-tête HSTS dans `public/.htaccess` ; HSTS dans `public/_headers`. Le certificat dépend de l'hébergeur. | Automatique (présence dans `.htaccess`). À vérifier une fois en ligne. |
+| **5.8** En-têtes de sécurité et CSP limitée au site | `Content-Security-Policy` : `default-src 'none'`, scripts, styles, images et polices depuis le site uniquement, `form-action 'self'`, `frame-ancestors 'none'`. Aussi : `X-Content-Type-Options`, `X-Frame-Options`, `Referrer-Policy: no-referrer`, `Permissions-Policy`, `Cross-Origin-Opener-Policy`. Le site n'a ni style ni script en ligne. | Automatique. Navigateur : l'aperçu local envoie la même CSP, aucune violation. |
+| **5.8** Liens externes avec `rel="noopener"` | Lien vers la carte et liens vers les sites des sociétés. | Automatique |
+| **5.8** Adresse e-mail protégée | Le HTML contient l'adresse en deux morceaux (« usl.cugy (arobase) gmail.com ») ; le script du site assemble le lien. | Automatique (ni adresse ni `mailto:` dans le HTML) |
+
+## Ce qui dépend encore de l'hébergeur
+
+- Lequel des deux fichiers d'en-têtes est pris en compte, et le certificat HTTPS.
+- L'activation du formulaire de contact.
+- Le nom, l'adresse et la durée de conservation des journaux à inscrire dans les pages légales.
